@@ -1,0 +1,151 @@
+@font-face {
+    font-family: BosReg;
+    src: url(./src/BostonRegular.otf);
+}
+@font-face {
+    font-family: BosSB;
+    src: url(./src/BostonSemiBold.otf);
+}
+header, section, footer, aside, nav, article, figure, figcaption{
+    display: block;
+}
+body{
+    color:#ffffff;
+    background-color: #000000;
+    background-position: center;
+    font-family: BosReg;
+    line-height: 1.4em;
+    margin:0px;
+}
+.wrapper{
+    width: 1200px;
+    margin: 20px auto 20px auto;
+    border: 2px solid #000000;
+    background-color: #252525;
+}
+header{
+    height: 200px;
+    background-color: #141414;
+}
+h1{
+    text-indent: -9999px;
+    width: 940px;
+    height: 130px;
+    margin: 0px;
+}
+nav, footer{
+    clear: both;
+    color: #ffffff;
+    background-color: #141414;
+    height: 50px;
+    text-align: center;
+}
+nav ul{
+    margin: 0px 0px;
+    padding: 5px 0px 5px 30px;
+}
+nav li{
+    display: inline;
+    margin-right: 40px;
+}
+nav li a{
+    color: #ffffff;
+}
+nav li a:hover, nav li a.current{
+    color: #F7C873;
+}
+section.courses{
+    float:left;
+}
+section.courses h2{
+    font-family: BosSB;
+    margin-top: 60px;
+    margin-left: 30px;
+}
+article{
+    clear: both;
+    overflow: auto;
+    width: 100%;
+}
+hgroup{
+    margin-top: 40px;
+}
+figure{
+    float: left;
+    width: 290px;
+    height: 220px;
+    padding: 5px;
+    margin: 20px;
+}
+figcaption{
+    font-size: 90%;
+    text-align: left;
+}
+.extend{
+    text-align: center;
+    margin-top: -20px;
+    margin-bottom: 30px;
+    color: #F7C873;
+}
+.extend>a{
+    color: #F7C873;
+}
+.extend>a:hover{
+    color: #FAEBCD;
+}
+aside{
+    margin-top: 50px;
+    margin-left: 40px;
+    width: 230px;
+    float: left;
+    padding: 0px 0px 0px 20px;
+}
+aside section a{
+    display: block;
+    padding: 10px;
+    border-bottom: 1px solid #eeeeee;
+}
+aside section a:hover{
+    color: #F7C873;
+    background-color: #454545;
+}
+a{
+    color:  #eeeeee;
+    text-decoration: none;
+}
+h1, h2, h3{
+    font-weight: normal;
+    font-family: BosReg;
+}
+h2{
+    margin: 10px 0px 5px 0px;
+    padding: 0px;
+}
+h3{
+    margin: 0px 0px 10px 0px;
+    color:  #F7C873;
+}
+p{
+    font-family: BosReg;
+}
+aside h2{
+    padding: 15px 0px 10px 0px;
+    color: #F7C873;
+}
+section.courses hgroup h2{
+    font-family: BosReg;
+    margin: 10px 0px 5px 0px;
+    padding: 0px;
+}
+hgroup p{
+    padding: 0px 0px 0px 0px;
+    color: #FAEBCD;
+    font-family: BosReg;
+}
+hgroup h3{
+    margin: 0px 0px 0px 0px;
+}
+footer{
+    font-size: 80%;
+    padding: 7px 0px 0px 20px;
+}
